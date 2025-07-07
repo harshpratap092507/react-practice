@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namastey react</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const headings = document.createElement("h1");
+      headings.innerHTML = "Hello heading 1";
+
+      const ele = document.createElement("h1");
+      ele.innerHTML = "1234";
+
+      const root = document.getElementById("root");
+      root.appendChild(headings);
+      root.appendChild(ele);
+    </script>
+  </body>
+</html>
