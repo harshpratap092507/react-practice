@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="react1.css" />
   </head>
   <body>
     <div id="root"></div>
@@ -16,20 +17,6 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <script>
-      const parent = React.createElement("div", { id: "parent1" }, [
-        React.createElement("div", { id: "child1" }, [
-          React.createElement("h1", {}, "Hello World"),
-          React.createElement("h2", {}, "Namastey React"),
-        ]),
-        React.createElement("div", { id: "child2" }, [
-          React.createElement("h1", {}, "Hello World"),
-          React.createElement("h2", {}, "Namastey React"),
-        ]),
-      ]);
-
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(parent);
-    </script>
+    <script src="./react1.js"></script>
   </body>
 </html>
